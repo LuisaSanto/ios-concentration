@@ -12,6 +12,8 @@
 		3E0E97BA2213A127001AA1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E97B82213A127001AA1CB /* Main.storyboard */; };
 		3E0E97BC2213A129001AA1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E97BB2213A129001AA1CB /* Assets.xcassets */; };
 		3E0E97BF2213A129001AA1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E97BD2213A129001AA1CB /* LaunchScreen.storyboard */; };
+		3E8681822214E34A006ACE58 /* Concentrarion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8681812214E34A006ACE58 /* Concentrarion.swift */; };
+		3E8681842214E402006ACE58 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8681832214E402006ACE58 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3E0E97BB2213A129001AA1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E0E97BE2213A129001AA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E0E97C02213A129001AA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8681812214E34A006ACE58 /* Concentrarion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentrarion.swift; sourceTree = "<group>"; };
+		3E8681832214E402006ACE58 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 				3E0E97B22213A127001AA1CB /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		3E0E97B22213A127001AA1CB /* Products */ = {
 			isa = PBXGroup;
@@ -54,14 +59,24 @@
 		3E0E97B32213A127001AA1CB /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				3E0E97B42213A127001AA1CB /* AppDelegate.swift */,
+				3E8681812214E34A006ACE58 /* Concentrarion.swift */,
+				3E8681832214E402006ACE58 /* Card.swift */,
+				3E0E97C62213A35F001AA1CB /* Supporting files */,
 				3E0E97B62213A127001AA1CB /* ViewController.swift */,
 				3E0E97B82213A127001AA1CB /* Main.storyboard */,
-				3E0E97BB2213A129001AA1CB /* Assets.xcassets */,
-				3E0E97BD2213A129001AA1CB /* LaunchScreen.storyboard */,
 				3E0E97C02213A129001AA1CB /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		3E0E97C62213A35F001AA1CB /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3E0E97B42213A127001AA1CB /* AppDelegate.swift */,
+				3E0E97BB2213A129001AA1CB /* Assets.xcassets */,
+				3E0E97BD2213A129001AA1CB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +152,8 @@
 			files = (
 				3E0E97B72213A127001AA1CB /* ViewController.swift in Sources */,
 				3E0E97B52213A127001AA1CB /* AppDelegate.swift in Sources */,
+				3E8681822214E34A006ACE58 /* Concentrarion.swift in Sources */,
+				3E8681842214E402006ACE58 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
